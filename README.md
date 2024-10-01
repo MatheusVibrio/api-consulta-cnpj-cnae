@@ -8,6 +8,11 @@ Esta API permite consultar o CNAE (Classificação Nacional de Atividades Econô
 - **Validação de CNAE**: Verifica se algum dos CNAEs retornados está na lista pré-definida de CNAEs que identificam atividades relacionadas a postos de combustíveis.
 - **Resposta Estruturada**: Retorna informações detalhadas, incluindo o CNPJ, a lista de CNAEs associados e um indicador booleano (`ehPostoCombustivel`) que indica se o estabelecimento é, de fato, um posto de combustíveis.
 
+## Para Rodar
+
+### `npm i`
+### `npx ts-node-dev src/app.ts`
+
 ## Endpoint
 
 ### `GET /validar-posto/:cnpj`
